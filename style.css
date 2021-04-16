@@ -1,0 +1,10 @@
+body {
+    background-color: #000;
+}
+
+header {
+    background-color: #000;
+    color: #1ae7ff;
+    border-radius: 10px;
+    border: 3px solid #1ae7ff;
+}
