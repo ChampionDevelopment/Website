@@ -1,10 +1,331 @@
-body {
-    background-color: #000;
+ /* Home Page */ 
+
+ .outsidemainbox {
+    position:absolute;
+    z-index: 1;
+    background-color:whitesmoke;
+    height: 2000px;
+    width:1217px;
+
+    -webkit-filter: blur(2.5px);
+    filter: blur(2.5px);
+    left:1px;
+    top:0px;
 }
 
-header {
-    background-color: #000;
-    color: #1ae7ff;
-    border-radius: 10px;
-    border: 3px solid #1ae7ff;
+.divforthebuttons {
+    position:absolute;
+    z-index: 6;
+    background-color:rgb(23, 56, 42);
+    opacity:0.6;
+    left:0px;
+    right:0px;
+    top:0px;
+    width:1217px;
+    height:105px;
+    border-style:ridge
+
+}
+    .topborder {
+        position:absolute;
+        z-index: 6;
+        top: -450px;
+        height:1100px;
+        width: 1.2px;
+        left:615px;
+        transform: rotate(270deg);
+       background-color:rgb(31, 37, 39);
+
+    }
+
+      .bottomborder {
+        position:absolute;
+        z-index: 6;
+        top: -540px;
+        height:1100px;
+        width: 1.2px;
+        left:615px;
+        transform: rotate(270deg);
+       background-color:rgb(31, 37, 39);
+
+      
+    } 
+
+#HomeButton {
+    position:absolute;
+    z-index: 7;
+    left:300px;
+    top:30px;
+    width:100px;
+    height:50px;
+    background-color: transparent;   
+    border-color: transparent; 
+    color:black;
+    font-family: var(--title-font-family);
+    font-size: 1em;
+    transition: width 0.5s, height 0.5s;
+}
+#HomeButton:hover {
+    background-color:#666b6b;   
+    opacity: 0.8; 
+    width:120px;
+    height:90px;
+}
+
+#HomeButton:hover .move-left {
+    transform: translate(-350px,0);
+    -webkit-transform: translate(-350px,0);
+}
+
+#ProjectButton {
+    position:absolute;
+    z-index: 7;
+    left:440px;
+    top:30px;
+    width:100px;
+    height:50px;
+    background-color: transparent;   
+    border-color: transparent; 
+    color:black;
+    font-family: var(--title-font-family);
+    font-size: 1em;
+    transition: width 0.5s, height 0.5s;
+}
+#ProjectButton:hover {
+    background-color:#666b6b;   
+    opacity: 0.8; 
+    width:120px;
+    height:90px;
+}
+
+#ProjectButton:hover .move-left {
+    transform: translate(-350px,0);
+    -webkit-transform: translate(-350px,0);
+}
+
+#AboutButton {
+    position:absolute;
+    z-index: 7;
+    left:580px;
+    top:30px;
+    width:100px;
+    height:50px;
+    background-color: transparent;   
+    border-color: transparent; 
+    color:black;
+    font-family: var(--title-font-family);
+    font-size: 1em;
+    transition: width 0.5s, height 0.5s;
+}
+
+#AboutButton:hover {
+    background-color:#666b6b;   
+    opacity: 0.8; 
+    width:120px;
+    height:90px;
+
+}
+a:link {
+
+
+    color:black;
+    text-decoration: none;
+
+  
+  }
+  
+  
+  a:visited {
+    color:black;
+    text-decoration: none;
+
+  }
+  
+  
+  a:hover {
+    color:black;
+    text-decoration: none;
+
+  }
+  
+  
+  a:active {
+    color:black;
+    text-decoration: none;
+
+  }
+  
+
+#ContactButton {
+    position:absolute;
+    z-index: 7;
+    left:720px;
+    top:30px;
+    width:100px;
+    height:50px;
+    background-color: transparent;   
+    border-color: transparent; 
+    color:black;
+    font-family: var(--title-font-family);
+    font-size: 1em;
+    transition: width 0.5s, height 0.5s;
+
+
+}
+
+
+
+#ContactButton:hover {
+    background-color:#666b6b;   
+    opacity: 0.8; 
+    width:150px;
+    width:120px;
+    height:90px;
+
+}
+
+#RecruitButton {
+    position:absolute;
+    z-index: 7;
+    left:860px;
+    top:30px;
+    width:100px;
+    height:50px;
+    background-color: transparent;   
+    border-color: transparent; 
+    color:black;
+    font-family: var(--title-font-family);
+    font-size: 1em;
+    transition: width 0.5s, height 0.5s;
+
+}
+
+    #RecruitButton:hover {
+        background-color:#666b6b;   
+        opacity: 0.8; 
+        width:150px;
+        width:120px;
+        height:90px;
+    
+    }
+.insidebox {
+    position:absolute;
+    z-index: 2;
+    text-align: center;
+    background-color:rgb(142, 142, 148);
+    height: 2000px;
+    width:1000px;
+ 
+    box-shadow:0 10px 10px 0 rgb(0 0 0 / 20%), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+    left:120px;
+    top:0px;
+}
+
+    
+ 
+
+
+
+h1 {
+    position:absolute;
+    z-index: 3;
+    font-family: var(--title-font-family);
+    font-size: 2em;
+    color:black;
+    top: 0px;
+    left:24px;
+    opacity:0.8;
+
+     
+    }
+.secondh1 {
+    position:absolute;
+    z-index: 3;
+    font-family: var(--title-font-family);
+    font-size: 2em;
+    color:black;
+    top: 20px;
+    left:10px;
+    opacity:0.8;
+}
+
+/*h4 {
+    position:absolute;
+    z-index: 3;
+    font-family: var(--title-font-family);
+    font-size: 2em;
+    color: rgb(129, 124, 124));
+    top: 20px;
+    left:10px;
+    opacity:1;
+
+}
+     */
+    .verythinrectanglevertical {
+        position:absolute;
+        z-index: 4;
+        top: 200px;
+        height: 900px;
+        width: 20px;
+        left:668px;
+       background-color:rgb(31, 37, 39);
+        opacity: 0.5;
+        filter:blur(2px);
+    }
+
+      .verythinrectanglehorizontal {
+        position:absolute;
+        z-index: 5;
+        transform: rotate(270deg);
+        top: 40px;
+        height:1100px;
+        width: 20px;
+        left:615px;
+        background-color:rgb(31, 37, 39);
+        opacity: 0.5;
+        filter:blur(2px);
+      
+    } 
+
+
+    .footer {
+    position:absolute;
+    z-index: 2;
+    top: 2000px;
+    height:200px;
+    width:1217px;
+
+
+    }
+   /* About Page */ 
+
+.Aboutpageoutsidemainbox {
+
+    position:absolute;
+    z-index: 1;
+    background-color: var(--primary-color);
+    height: 1205px;
+    width:1217px;
+    -webkit-filter: blur(2.5px);
+    filter: blur(2.5px);
+    left:1px;
+    top:0px;
+    
+
+
+}
+
+
+/* Contact Page */
+
+.contactpageoutsidemainbox {
+    position:absolute;
+    z-index: 1;
+    background-color: var(--primary-color);
+    height: 1200px;
+    width:1217px;
+   /* -webkit-filter: blur(2.5px);
+    filter: blur(2.5px);*/
+    
+
 }
